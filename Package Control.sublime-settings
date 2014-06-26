@@ -1,0 +1,30 @@
+{
+	"channels":
+	[
+		"https://sublime.wbond.net/channel.json",
+		"https://github.com/jpvanhal/sublime-jinja2"
+	],
+	"installed_packages":
+	[
+		"CSS3_Syntax",
+		"DocBlockr",
+		"GitGutter",
+		"Indent XML",
+		"jQuery",
+		"Rust",
+		"Sass",
+		"Sublime Files",
+		"sublime-jinja2",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-rustc",
+		"SublimeLinter-flake8",
+		"SublimeLinter-jshint",
+		"Theme - Soda"
+	],
+	"repositories":
+	[
+		"https://github.com/jpvanhal/sublime-jinja2",
+		"https://github.com/alek-sys/sublimetext_indentxml.git"
+	]
+}

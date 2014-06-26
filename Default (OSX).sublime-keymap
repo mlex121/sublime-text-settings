@@ -1,0 +1,27 @@
+[
+    { "keys": ["ctrl+tab"], "command": "next_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+    { "keys": ["super+shift+i"], "command": "reindent" , "args": { "single_line": false } },
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "paste" },
+    { "keys": ["super+alt+left"], "command": "set_layout", "args": {
+        "cols": [0.0, 0.5, 1.0],
+        "rows": [0.0, 0.5, 1.0],
+        "cells": [[0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2]]
+    }},
+    { "keys": ["super+alt+right"], "command": "set_layout", "args": {
+        "cols": [0.0, 0.5, 1.0],
+        "rows": [0.0, 0.5, 1.0],
+        "cells": [[1, 0, 2, 2], [0, 0, 1, 1], [0, 1, 1, 2]]
+    }},
+    { "keys": ["super+alt+up"], "command": "set_layout", "args": {
+        "cols": [0.0, 0.5, 1.0],
+        "rows": [0.0, 0.5, 1.0],
+        "cells": [[0, 0, 2, 1], [0, 1, 1, 2], [1, 1, 2, 2]]
+    }},
+    { "keys": ["super+alt+down"], "command": "set_layout", "args": {
+        "cols": [0.0, 0.5, 1.0],
+        "rows": [0.0, 0.5, 1.0],
+        "cells": [[0, 1, 2, 2], [0, 0, 1, 1], [1, 0, 2, 1]]
+    }}
+]
