@@ -1,0 +1,128 @@
+{
+    "user": {
+        "debug": false,
+        "delay": 0.25,
+        "error_color": "D02000",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme_excludes": [],
+        "lint_mode": "background",
+        "linters": {
+            "flake8": {
+                "@disable": false,
+                "args": [],
+                "builtins": "",
+                "excludes": [],
+                "ignore": "",
+                "max-complexity": -1,
+                "max-line-length": null,
+                "select": ""
+            },
+            "jshint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "rust": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "mark_style": "outline",
+        "no_column_highlights_line": false,
+        "paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "python_paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "rc_search_limit": 3,
+        "shell_timeout": 10,
+        "show_errors_on_save": false,
+        "show_marks_in_minimap": true,
+        "syntax_map": {
+            "html (django)": "html",
+            "html (rails)": "html",
+            "html 5": "html",
+            "php": "html",
+            "python django": "python"
+        },
+        "warning_color": "DDB700",
+        "wrap_find": true
+    },
+    /**
+     * JSHint options. Mostly inspired by Airbnb's settings.
+     * @see https://github.com/airbnb/javascript/blob/master/linters/SublimeLinter/SublimeLinter.sublime-settings
+     */
+    "jshint_options": {
+        /**
+         * ENVIRONMENTS
+         */
+
+        // Define globals exposed by modern browsers.
+        "browser": true,
+
+        // Define globals exposed by jQuery.
+        "jquery": true,
+
+        // Define other common globals.
+        "predef": [
+            "Backbone",
+            "_"
+        ],
+
+        /**
+         * ENFORCING OPTIONS
+         */
+
+        // Force all variable names to use either camelCase or UPPER_CASE.
+        "camelcase": true,
+
+        // Prohibit use of == and != in favor of === and !==.
+        "eqeqeq": true,
+
+        // Enforce tab width of 4 spaces.
+        "indent": 4,
+
+        // Prohibit use of a variable before it is defined.
+        "latedef": true,
+
+        // Require capitalized names for constructor functions.
+        "newcap": true,
+
+        // Enforce use of single quotation marks for strings.
+        "quotmark": "single",
+
+        // Prohibit trailing whitespace.
+        "trailing": true,
+
+        // Prohibit use of explicitly undeclared variables.
+        "undef": true,
+
+        // Warn when variables are defined but never used.
+        "unused": true,
+
+        // Enforce line length to 80 characters.
+        "maxlen": 80,
+
+        // Enforce placing 'use strict' at the top function scope.
+        "strict": true,
+
+        // Enforce wrapping blocks in loops and conditions with curly braces.
+        "curly": true,
+
+        // Prohibit use of arguments.caller and arguments.callee.
+        "noarg": true,
+
+        /**
+         * RELAXING OPTIONS
+         */
+
+        // Suppress warnings about using == null comparisons.
+        "eqnull": true,
+    }
+}
