@@ -20,11 +20,13 @@
 		"SublimeLinter-contrib-rustc",
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
+		"SublimePaneNavigation",
 		"Theme - Soda"
 	],
 	"repositories":
 	[
 		"https://github.com/jpvanhal/sublime-jinja2",
-		"https://github.com/alek-sys/sublimetext_indentxml.git"
+		"https://github.com/alek-sys/sublimetext_indentxml.git",
+		"https://github.com/borist/SublimePaneNavigation.git"
 	]
 }
