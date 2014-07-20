@@ -124,5 +124,9 @@
 
         // Suppress warnings about using == null comparisons.
         "eqnull": true,
+
+        // Suppress warnings about using expressions where assignments or
+        // function calls would normally be expected.
+        "expr": true
     }
 }
