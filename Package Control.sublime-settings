@@ -4,16 +4,26 @@
 		"https://sublime.wbond.net/channel.json",
 		"https://github.com/jpvanhal/sublime-jinja2"
 	],
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
+		"Cscope",
 		"CSS3_Syntax",
+		"CTags",
 		"DocBlockr",
 		"GitGutter",
 		"Gitignore",
 		"Indent XML",
 		"jQuery",
+		"MIPS Syntax",
+		"nginx",
+		"Package Control",
 		"Rust",
+		"RustAutoComplete",
 		"Sass",
+		"SFTP",
 		"Sublime Files",
 		"sublime-jinja2",
 		"SublimeCodeIntel",

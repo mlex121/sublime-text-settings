@@ -1,4 +1,5 @@
 {
+	"CscopeSublime_executable": "/usr/local/bin/cscope",
 	"auto_complete_commit_on_tab": true,
 	"auto_find_in_selection": true,
 	"bold_folder_labels": true,
@@ -23,7 +24,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Sublime Files",
+		"SublimeLinter-jshint",
+		"SublimeLinter",
+		"jQuery",
+		"Vintage",
+		"SublimeLinter-contrib-rustc"
 	],
 	"rulers":
 	[
