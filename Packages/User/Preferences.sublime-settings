@@ -1,0 +1,49 @@
+{
+	"CscopeSublime_executable": "/usr/local/bin/cscope",
+	"auto_complete_commit_on_tab": true,
+	"auto_find_in_selection": true,
+	"bold_folder_labels": true,
+	"caret_style": "smooth",
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/User/SublimeLinter/Afterglow-Monokai (SL).tmTheme",
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store"
+	],
+	"folder_exclude_patterns":
+	[
+		"bin",
+		".bundle",
+		".git",
+		".sass-cache",
+		"tmp"
+	],
+	"font_size": 11.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"jQuery",
+		"SublimeLinter-contrib-rustc",
+		"Sublime Files",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"shift_tab_unindent": true,
+	"status_bar_brighter": true,
+	"tab_completion": false,
+	"tabs_padding_medium": true,
+	"tabs_small": true,
+	"theme": "Afterglow.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true,
+	"word_wrap": true
+}
