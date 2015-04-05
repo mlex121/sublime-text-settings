@@ -17,7 +17,6 @@
 		"Gitignore",
 		"Indent XML",
 		"jQuery",
-		"MIPS Syntax",
 		"nginx",
 		"Package Control",
 		"Rust",
@@ -32,8 +31,7 @@
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
 		"SublimePaneNavigation",
-		"Theme - Afterglow",
-		"Theme - Soda"
+		"Theme - Afterglow"
 	],
 	"repositories":
 	[
